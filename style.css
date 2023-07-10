@@ -1,7 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+main, header{
+    width: 100%;
+}
+
+/* Banner Section */
 header {
     background-image: url('./images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -9,7 +14,8 @@ header {
     background-position: center;
     height: 900px;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -22,7 +28,7 @@ header {
 .heading-one {
     color: #FFF;
     text-align: right;
-    font-family: Work Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 65px;
     font-style: normal;
     display: flex;
@@ -52,3 +58,57 @@ header {
     font-weight: 600;
 }
 
+/* Main Section */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 160px;
+    padding-top: 200px; */
+    position: center;
+    padding: 120px 300px;
+}
+
+ul>li {
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.text-container {
+    display: block;
+    justify-content: space-around;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.heading-two {
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    color: #151414;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.para-two {
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color:  #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.fa-solid{
+    color: #16D887;
+    margin-right: 5px;
+}
