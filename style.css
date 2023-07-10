@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-main, header{
+
+main,
+header {
     width: 100%;
 }
 
@@ -67,6 +69,7 @@ header {
     padding-top: 200px; */
     position: center;
     padding: 120px 300px;
+    margin-bottom: 24px;
 }
 
 ul>li {
@@ -79,7 +82,8 @@ ul>li {
     display: block;
     justify-content: space-around;
     color: black;
-    margin-bottom: 24px;
+    margin-top: 100px;
+    
 }
 
 .heading-two {
@@ -100,7 +104,7 @@ ul>li {
     width: 416px;
     flex-direction: column;
     flex-shrink: 0;
-    color:  #444343;
+    color: #444343;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
@@ -108,7 +112,60 @@ ul>li {
     line-height: 26px;
     margin-bottom: 10px;
 }
-.fa-solid{
+
+.fa-solid {
     color: #16D887;
     margin-right: 5px;
+}
+
+/* main section end */
+
+.my-plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px 0px 200px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.header-three {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.heading-four {
+    color: #151414;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.my-plan-list {
+    align-items: center;
+}
+
+.dev-para {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.icon-pic1{
+    margin-left: 80px;
+}
+.icon-pic2{
+    margin-left: 20px;
+}
+.icon-pic3{
+    margin-left: 60px;
+}
+.icon-pic4{
+    margin-left: 20px;
 }
